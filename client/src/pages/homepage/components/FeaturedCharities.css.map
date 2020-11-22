@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "AAAA,AAAA,2BAA2B,CAAC;EACxB,KAAK,EAAE,IAAI;EACX,UAAU,EAAE,KAAK;EACjB,UAAU,EAAE,KAAK;EACjB,gBAAgB,EAAE,OAAO;CAC5B",
     "sources": [
         "FeaturedCharities.scss"
     ],

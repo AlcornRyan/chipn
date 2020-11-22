@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "AAEA,AAAA,uBAAuB,CAAC;EACpB,KAAK,EAAE,IAAI;EACX,UAAU,EAAE,kBAAkB;EAC9B,gBAAgB,EAAE,OAAO;EACzB,aAAa,EAAE,iBAAiB;CACnC",
+    "mappings": "AAEA,AAAA,uBAAuB,CAAC;EACpB,KAAK,EAAE,IAAI;EACX,UAAU,EAAE,kBAAkB;EAC9B,gBAAgB,EAAE,OAAO;CAC5B",
     "sources": [
         "DiscoverCause.scss"
     ],

@@ -1,1 +1,7 @@
-/* No CSS *//*# sourceMappingURL=WidgetInfo.css.map */
+.widgetInfoContainer {
+  width: 100%;
+  min-height: 800px;
+  background-color: #F7F7F7;
+  border-bottom: 1px solid #cccccc;
+}
+/*# sourceMappingURL=WidgetInfo.css.map */
