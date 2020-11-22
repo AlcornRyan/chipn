@@ -1,0 +1,9 @@
+.button {
+  padding: 3px 10px;
+  font-size: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: red;
+}
+/*# sourceMappingURL=Charities.css.map */
