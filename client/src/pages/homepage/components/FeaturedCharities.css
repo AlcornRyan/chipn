@@ -3,5 +3,7 @@
   min-height: 600px;
   max-height: 600px;
   background-color: #FFFFFF;
+  background-image: -webkit-gradient(linear, left top, right top, from(#FFCD00), to(white)) !important;
+  background-image: linear-gradient(to right, #FFCD00, white) !important;
 }
 /*# sourceMappingURL=FeaturedCharities.css.map */

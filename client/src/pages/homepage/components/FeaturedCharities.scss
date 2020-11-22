@@ -1,6 +1,9 @@
+$chipnYellow: #FFCD00;
+
 .featuredCharitiesContainer {
     width: 100%;
     min-height: 600px;
     max-height: 600px;
     background-color: #FFFFFF;
+    background-image: linear-gradient(to right, $chipnYellow , white) !important;
 }
