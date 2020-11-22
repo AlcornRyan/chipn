@@ -1,9 +1,9 @@
 import './HowItWorks.css';
 
-export default function PrintHeader() {
+export default function PrintHowItWorks() {
   return (
     <div className="">
-      Header
+      How It Works
     </div>
   );
 }

@@ -12,10 +12,11 @@ export default function LandingPage() {
   return (
     <div>
       <Header />
-      <Container maxWidth="xlg" className="homePageContainer">
         {/*Slideshow()*/}
         <DiscoverCause />
-      </Container>
+        <HowItWorks />
+        <FeaturedCharities />
+        <WidgetInfo />
       <Footer />
     </div>
   );

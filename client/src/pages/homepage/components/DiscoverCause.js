@@ -1,6 +1,6 @@
 import './DiscoverCause.css';
 
-export default function PrintHeader() {
+export default function PrintDiscoverCause() {
   return (
     <div className="discoverCauseContainer">
       Discover a cause

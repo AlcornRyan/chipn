@@ -1,9 +1,9 @@
 import './WidgetInfo.css';
 
-export default function PrintHeader() {
+export default function PrintWidgetInfo() {
   return (
     <div className="">
-      Header
+      Widget Info Container
     </div>
   );
 }

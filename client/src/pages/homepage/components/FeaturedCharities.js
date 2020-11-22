@@ -1,9 +1,9 @@
 import './FeaturedCharities.css';
 
-export default function PrintHeader() {
+export default function PrintFeaturedCharities() {
   return (
     <div className="">
-      Header
+      FeaturedCharities
     </div>
   );
 }
