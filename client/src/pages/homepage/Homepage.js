@@ -5,8 +5,6 @@ import HowItWorks from './components/HowItWorks';
 import FeaturedCharities from './components/FeaturedCharities';
 import WidgetInfo from './components/WidgetInfo';
 import Footer from '../footer/Footer';
-// Material UI
-import Container from '@material-ui/core/Container';
 
 export default function LandingPage() {
   return (
