@@ -5,7 +5,7 @@ import ChipnLogo from '../../logos/chipn-logo.svg';
 export default function PrintHeader() {
   return (
       <Grid container className="headerContainer">
-        {/* Left side of Header */}
+        {/* Header Container */}
         <Grid item md={12}>
           
           {/* Chipn Logo */}
