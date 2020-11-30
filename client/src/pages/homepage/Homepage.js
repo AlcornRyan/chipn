@@ -13,7 +13,6 @@ export default function LandingPage() {
         {/*Slideshow()*/}
         <DiscoverCause />
         <HowItWorks />
-        <FeaturedCharities />
         <WidgetInfo />
       <Footer />
     </div>
