@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,oBAAoB,CAAC;EACjB,KAAK,EAAE,IAAI;EACX,UAAU,EAAE,KAAK;EACjB,gBAAgB,EAAE,OAAO;EACzB,aAAa,EAAE,iBAAiB;CACnC",
+    "sources": [
+        "WidgetInfo.scss"
+    ],
+    "names": [],
+    "file": "WidgetInfo.css"
+}
