@@ -1,21 +1,17 @@
 import './Homepage.css';
-import Header from '../header/Header';
 import DiscoverCause from './components/DiscoverCause';
 import HowItWorks from './components/HowItWorks';
 import FeaturedCharities from './components/FeaturedCharities';
 import WidgetInfo from './components/WidgetInfo';
-import Footer from '../footer/Footer';
 
 export default function LandingPage() {
   return (
     <div>
-      <Header />
-        {/*Slideshow()*/}
-        <DiscoverCause />
-        <HowItWorks />
-        <FeaturedCharities />
-        <WidgetInfo />
-      <Footer />
+      {/*Slideshow()*/}
+      <DiscoverCause />
+      <HowItWorks />
+      <FeaturedCharities />
+      <WidgetInfo />
     </div>
   );
 }
