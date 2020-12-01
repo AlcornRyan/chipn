@@ -1,6 +1,15 @@
+$chipnYellow: #FFCD00;
+$greyChipn: #f2f2f2;
+
 .howItWorksContainer {
     width: 100%;
-    min-height: 600px;
-    max-height: 600px;
-    background-color: #F7F7F7;
+    height: 20%;
+    background-image: linear-gradient(70deg, $chipnYellow 33%, $greyChipn 33%) ;
+    padding: 3em;
+}
+
+.howItWorksCard {
+    padding: 1em;
+    width: 20%;
+    box-shadow: 0;
 }

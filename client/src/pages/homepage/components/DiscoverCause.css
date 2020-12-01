@@ -1,6 +1,6 @@
 .discoverCauseContainer {
   width: 100%;
-  min-height: calc(100vh - 57px);
+  height: "20%";
   background-color: #FFFFFF;
   border-bottom: 1px solid #EEEEEE;
   color: #484848;
