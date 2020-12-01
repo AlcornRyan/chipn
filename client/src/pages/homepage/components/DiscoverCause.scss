@@ -3,7 +3,7 @@ $chipnYellow: #FFCD00;
 $linkHover: #03A9F4;
 $darkGrey: #484848;
 $headerBackground: #ffffff;
-$redButton: #FF3A3A;
+$buttonBG: #FF3A3A;
 
 .discoverCauseContainer {
     width: 100%;
@@ -37,8 +37,8 @@ $redButton: #FF3A3A;
             font-size: 16px;
             font-weight: 700;
             margin-top: 15px;
-            background-color: $redButton;
-            border: 1px solid $redButton;
+            background-color: $buttonBG;
+            border: 1px solid $buttonBG;
             border-radius: 15px;
         }
         #discoverCauseLeftContainer button:hover {
