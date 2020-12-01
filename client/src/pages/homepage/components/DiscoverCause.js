@@ -21,7 +21,7 @@ export default function PrintDiscoverCause() {
             Let's build something together!
             </p>
             
-            <button className="leftContainerButton">
+            <button>
               Discover a Cause
             </button>
 
