@@ -1,9 +1,20 @@
 $chipnYellow: #FFCD00;
+$greyChipn: #f2f2f2;
+$lightgreyChipn: #f7f7f7;
 
-.featuredCharitiesContainer {
+.featured-charities-container {
     width: 100%;
-    min-height: 600px;
-    max-height: 600px;
-    background-color: #FFFFFF;
-    background-image: linear-gradient(to right, $chipnYellow , white) !important;
+    height: 20%;
+    background-image: linear-gradient(
+        290deg, transparent 67%, $greyChipn 67%, $lightgreyChipn 67%) ;
+    padding: 3em;
+}
+
+.card-charities {
+    padding: 1em;
+    width: 20%;
+}
+
+.featured-charities-heading{
+    width: 30%;
 }
