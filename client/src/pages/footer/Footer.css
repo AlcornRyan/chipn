@@ -1,6 +1,107 @@
-.footerContainer {
-    width: 100%;
-    height: "10%";
-    background-color: #eeeeee;
-    border-bottom: 1px solid #cccccc;
+footer {
+  background-color: #FFCD00;
 }
+
+a {
+  color: #484848;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #03A9F4;
+}
+
+.footerContainer {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #cccccc;
+  padding-top: 25px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 20px;
+}
+
+.footerColumn {
+  width: 100%;
+  padding-left: 10px;
+}
+
+.footerColumn img, h4, h5, h6 {
+  display: block;
+  margin: 0px;
+  padding: 0px;
+}
+
+.footerColumn img {
+  width: 120px;
+  margin-bottom: 12px;
+}
+
+.footerColumn h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.footerColumn h5 {
+  font-size: 15px;
+  margin-bottom: 1px;
+}
+
+.footerColumn h6 {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.footerContentColumn {
+  width: 100%;
+  height: auto;
+  padding-top: 5px;
+  padding-left: 60px;
+  padding-right: 40px;
+}
+
+.footerContentColumn ul {
+  list-style-type: none;
+  display: inline-block;
+  padding: 0px;
+  margin-top: 5px;
+}
+
+.footerContentColumn a {
+  float: left;
+  display: block;
+  font-size: 16px;
+  margin-bottom: 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-decoration: none;
+}
+
+.footerLegalContainer {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #cccccc;
+  padding-top: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 10px;
+  color: #484848;
+  font-size: 12px;
+  font-weight: 400;
+  background-color: #E9E9E9;
+}
+
+.footerLegalContainer p {
+  padding: 0px;
+  margin: 0px;
+  margin-top: 2px;
+}
+
+.footerCopy {
+  float: left;
+}
+
+.footerTOSPP {
+  float: right;
+}
+/*# sourceMappingURL=Footer.css.map */
