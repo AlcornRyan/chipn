@@ -1,6 +1,6 @@
 .headerContainer {
     width: 100%;
-    min-height: 56px;
+    height: "10%";
     background-color: #eeeeee;
     border-bottom: 1px solid #cccccc;
 }
