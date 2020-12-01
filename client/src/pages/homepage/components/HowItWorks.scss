@@ -1,6 +1,15 @@
+// SASS variables
+$chipnYellow: #FFCD00;
+$chipnGrey: #f2f2f2;
+$linkHover: #03A9F4;
+$darkGrey: #484848;
+$headerBackground: #ffffff;
+$buttonBG: #FF3A3A;
+
 .howItWorksContainer {
     width: 100%;
-    min-height: 600px;
+    min-height: 580px;
     max-height: 600px;
-    background-color: #F7F7F7;
+    background-image: linear-gradient(75deg, $chipnYellow 30%, $chipnGrey 30%) ;
+    background-color: #FFFFFF;
 }

@@ -1,10 +1,15 @@
 import './HowItWorks.css';
+import Grid from '@material-ui/core/Grid';
 
 export default function PrintHowItWorks() {
   return (
-    <div className="howItWorksContainer">
-      How It Works
-    </div>
+    <Grid container className="howItWorksContainer">
+      <Grid item md={12}>
+
+        How It Works
+        
+      </Grid>
+    </Grid>
   );
 }
   
