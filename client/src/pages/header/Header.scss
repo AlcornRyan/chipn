@@ -2,7 +2,6 @@
 $chipnYellow: #FFCD00;
 $linkHover: #03A9F4;
 $darkGrey: #484848;
-
 $headerBackground: #ffffff;
 
 .headerContainer {
@@ -15,8 +14,8 @@ $headerBackground: #ffffff;
     padding-right: 30px;
     color: $darkGrey;
     box-shadow: 0px 1px 5px #CCCCCC;
-    z-index: 100;
     position: relative;
+    z-index: 100;
 }
 
 #logoContainer {

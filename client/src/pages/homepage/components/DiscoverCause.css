@@ -2,6 +2,76 @@
   width: 100%;
   height: "20%";
   background-color: #FFFFFF;
-  z-index: 50;
+  border-bottom: 1px solid #EEEEEE;
+  color: #484848;
+  -webkit-box-shadow: 0px 1px 5px #EEEEEE;
+          box-shadow: 0px 1px 5px #EEEEEE;
+  position: relative;
+  z-index: 90;
+}
+
+#discoverCauseLeftContainer {
+  width: 50%;
+  max-width: 50%;
+  min-height: calc(100vh - 57px);
+  max-height: calc(100vh - 57px);
+  float: left;
+  position: absolute;
+  background-color: #FFFFFF;
+}
+
+#discoverCauseLeftContainer h1 {
+  font-size: 52px;
+}
+
+#discoverCauseLeftContainer p {
+  font-size: 19px;
+}
+
+#discoverCauseLeftContainer button {
+  width: 200px;
+  height: 58px;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 15px;
+  background-color: #FF3A3A;
+  border: 1px solid #FF3A3A;
+  border-radius: 15px;
+}
+
+#discoverCauseLeftContainer button:hover {
+  cursor: pointer;
+}
+
+.leftContainerContent {
+  position: relative;
+  top: 21vh;
+  left: 7vw;
+}
+
+#discoverCauseRightContainer {
+  width: 50%;
+  min-height: calc(100vh - 57px);
+  max-height: calc(100vh - 57px);
+  position: absolute;
+  left: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow: hidden;
+}
+
+.backgroundImage {
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  min-width: 100%;
+  min-height: 100%;
 }
 /*# sourceMappingURL=DiscoverCause.css.map */
