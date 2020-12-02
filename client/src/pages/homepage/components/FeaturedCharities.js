@@ -1,35 +1,16 @@
 import './FeaturedCharities.css';
-import React, { Component } from 'react';
-import { Card } from '@material-ui/core';
-import { Grid } from '@material-ui/core';
+import Grid from '@material-ui/core/Grid';
+import Charities from '../../../features/featuredCharities/Charities';
 
-class FeaturedCharities extends Component {
-  state = {   }
-  render() { 
-    return (
-        <div className="featured-charities-container">
-          <Grid
-            container
-            direction="row">
+export default function PrintFeaturedCharities() {
+  return (
+    <Grid container className="featuredCharitiesContainer">
+      <Grid item md={12}>
 
-              <div>
-                <h1 className="featured-charities-heading">
-                Featured Charities
-                </h1>
-              </div>
-                
-              
-                <Card className="card-charities" >
-                  Card
-                </Card>
-                
-                <Card className="card-charities" >
-                  Card
-                </Card>
-               
-          </Grid>
-        </div>
-      );
-  }
+        FeaturedCharities
+        
+      </Grid>
+    </Grid>
+  );
 }
-export default FeaturedCharities;
+  
