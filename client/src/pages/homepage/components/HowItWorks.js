@@ -1,14 +1,15 @@
 import './HowItWorks.css';
-import { Card } from '@material-ui/core';
+import Grid from '@material-ui/core/Grid';
 
 export default function PrintHowItWorks() {
   return (
-    <div className="howItWorksContainer">
-          <div>
-          <Card className="howItWorksCard" >
-              Card
-            </Card>
-          </div>
-        </div>
+    <Grid container className="howItWorksContainer">
+      <Grid item md={12}>
+
+        How It Works
+        
+      </Grid>
+    </Grid>
   );
 }
+  

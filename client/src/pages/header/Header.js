@@ -1,11 +1,12 @@
 import './Header.css';
 import Grid from '@material-ui/core/Grid';
 import ChipnLogo from '../../logos/chipn-logo.svg';
+import { useSelector } from 'react-redux'
 
 export default function PrintHeader() {
   return (
       <Grid container className="headerContainer">
-        {/* Left side of Header */}
+        {/* Header Container */}
         <Grid item md={12}>
           
           {/* Chipn Logo */}
@@ -14,7 +15,7 @@ export default function PrintHeader() {
           </div>
 
           {/* Discover Link */}
-          <a href="#">Discover</a>
+          <a href="/discover">Discover</a>
           
         
         {/* Right side of Header */}
