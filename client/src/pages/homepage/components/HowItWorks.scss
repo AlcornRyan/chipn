@@ -1,15 +1,15 @@
+// SASS variables
 $chipnYellow: #FFCD00;
-$greyChipn: #f2f2f2;
+$chipnGrey: #f2f2f2;
+$linkHover: #03A9F4;
+$darkGrey: #484848;
+$headerBackground: #ffffff;
+$buttonBG: #FF3A3A;
 
 .howItWorksContainer {
     width: 100%;
-    height: 20%;
-    background-image: linear-gradient(70deg, $chipnYellow 33%, $greyChipn 33%) ;
-    padding: 3em;
-}
-
-.howItWorksCard {
-    padding: 1em;
-    width: 20%;
-    box-shadow: 0;
+    min-height: 580px;
+    max-height: 600px;
+    background-image: linear-gradient(75deg, $chipnYellow 30%, $chipnGrey 30%) ;
+    background-color: #FFFFFF;
 }
