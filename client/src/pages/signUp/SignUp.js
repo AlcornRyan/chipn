@@ -21,11 +21,11 @@ export default function SignUpPage() {
 
   return (
     <Grid container justify="center" className="SignUp">
-      <Grid item md={12}>
+      <Grid item xs={12}>
         <form className={classes.root} noValidate autoComplete="off">
         {/* Sign up container */}
         <Grid container justify="center">
-          <Grid item md={7} className="su_Container">
+          <Grid item xs={11} sm={7} md={8} className="su_Container">
 
             {/* Sign up Inner container */}
             <Grid container className="su_InnerContainer">
@@ -42,12 +42,12 @@ export default function SignUpPage() {
                 <Grid container justify="center">
                   
                   {/* Heading */}
-                  <Grid item md={12}>
+                  <Grid item xs={12}>
                     <h1>Sign up</h1>
                   </Grid>
                   
                   {/* Sign up with Social Media */}
-                  <Grid item md={12}>
+                  <Grid item xs={12}>
                     <Grid container justify="center" spacing={2}>
                       
                       {/* Facebook Link */}
@@ -69,12 +69,12 @@ export default function SignUpPage() {
                   </Grid>
 
                   {/* Sign up using email */}
-                  <Grid item md={12}>
+                  <Grid item xs={12}>
                     <p>Or sign up with your email</p>
                   </Grid>
 
                   {/* Input boxes */}
-                  <Grid item md={12}>
+                  <Grid item xs={12}>
 
                     {/* First name */}
                     <TextField
@@ -138,7 +138,7 @@ export default function SignUpPage() {
                   </Grid>
                   
                   {/* Sign up button */}
-                  <Grid item md={12}>
+                  <Grid item xs={12}>
                     <Button variant="contained" size="medium" color="primary" className={classes.margin}>
                       Sign up
                     </Button>
