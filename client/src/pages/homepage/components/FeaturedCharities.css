@@ -1,7 +1,7 @@
 .featuredCharitiesContainer {
   width: 100%;
   min-height: 600px;
-  height: auto;
+  max-height: 600px;
   background-color: #FFFFFF;
   background-image: linear-gradient(285deg, #fff6d1 60%, #ffda40 60%);
   -webkit-box-align: center;

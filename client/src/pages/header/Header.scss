@@ -9,7 +9,7 @@ $headerBackground: #ffffff;
     min-height: 56px;
     background-color: $headerBackground;
     border-bottom: 1px solid #cccccc;
-    line-height: 56px;
+    line-height: 30px;
     padding-left: 40px;
     padding-right: 30px;
     color: $darkGrey;
@@ -18,22 +18,24 @@ $headerBackground: #ffffff;
     z-index: 100;
 }
 
-#logoContainer {
+.logoContainer {
     width: 120px;
     height: 56px;
     float: left;
 }
-#logoContainer:hover {
+.logoContainer:hover {
     cursor: pointer;
 }
-#chipnLogo {
+.chipnLogo {
     width: 90px;
     float: left;
-    margin-top: 18px;
+    margin-top: 4px;
 }
 
 .headerContainer a {
+    height: 30px;
     float: left;
+    margin-top: 13px;
     display: block;
     color: $darkGrey;
     font-size: 16px;
@@ -66,8 +68,17 @@ $headerBackground: #ffffff;
     height: 56px;
     float: right;
 }
-    .slashDivider {
-        float: left;
-        padding-left: 5px;
-        padding-right: 5px;
+    .rightLinks {
+        font-size: 15px !important;
     }
+    .signInLink {
+        width: 78px;
+        color: #FFFFFF !important;
+        background-color: $linkHover;
+        border-radius: 30px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+        .signInLink:hover {
+            background-color: #21baff;
+        }

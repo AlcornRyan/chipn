@@ -1,7 +1,7 @@
 import './Header.css';
 import Grid from '@material-ui/core/Grid';
 import ChipnLogo from '../../logos/chipn-logo.svg';
-import { useSelector } from 'react-redux'
+import { NavLink } from 'react-router-dom';
 
 export default function PrintHeader() {
   return (
@@ -10,12 +10,14 @@ export default function PrintHeader() {
         <Grid item md={12}>
           
           {/* Chipn Logo */}
-          <div id="logoContainer">
-            <img src={ChipnLogo} alt="Chipn Logo" id="chipnLogo" />
+          <div className="logoContainer">
+            <NavLink to="/">
+              <img src={ChipnLogo} alt="Chipn Logo" className="chipnLogo" />
+            </NavLink>
           </div>
 
           {/* Discover Link */}
-          <a href="/discover">Discover</a>
+          <NavLink to="/discover" className="">Discover</NavLink>
           
         
         {/* Right side of Header */}
@@ -27,12 +29,10 @@ export default function PrintHeader() {
           </div>
           
           {/* Sign in Link */}
-          <a href="#">Sign in</a>
-
-          <span className="slashDivider">/</span>
+          <NavLink to="/signin" className="signInLink rightLinks">Sign in</NavLink>
 
           {/* Sign up Link */}
-          <a href="#">Sign up</a>
+          <NavLink to="/signup" className="rightLinks">Sign up</NavLink>
 
         </div>
 
