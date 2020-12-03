@@ -33,7 +33,7 @@ export default function SignUpPage() {
               {/* Left side */}
               <Hidden smDown>
                 <Grid item md={6} className="su_LeftCon">
-                  a
+                  
                 </Grid>
               </Hidden>
 
@@ -70,7 +70,7 @@ export default function SignUpPage() {
 
                   {/* Sign up using email */}
                   <Grid item md={12}>
-                    <p>Or sign with your email</p>
+                    <p>Or sign up with your email</p>
                   </Grid>
 
                   {/* Input boxes */}
