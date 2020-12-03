@@ -6,7 +6,7 @@ export default function printDiscoverCategoryImage() {
   return (
     <Grid container className="dis_CategoryImageContainer">
       <Grid item md={12} className="dis_CategoryImage">
-        <img src={forestBG} alt="Elephant walking in desert" className="dis_CategoryBackgroundImage" />
+        <img src={forestBG} alt="Elephant walking in desert" />
       </Grid>
       <Grid item md={12} className="dis_CategoryImageTitle">
         <h1>Environmental</h1>
