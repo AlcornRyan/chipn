@@ -5,6 +5,7 @@ import Avatar from '@material-ui/core/Avatar';
 import TextField from '@material-ui/core/TextField';
 import { makeStyles } from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';
+import { Link } from 'react-router-dom';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -144,7 +145,7 @@ export default function SignUpPage() {
                   </Grid>
                   
                   {/* Already have an account? Sign in! */}
-                  <p>Already have an account? Sign in!</p>
+                  <p>Already have an account? <Link to="/signin">Sign in!</Link></p>
 
                 </Grid>
               </Grid>

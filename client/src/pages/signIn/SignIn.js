@@ -1,6 +1,7 @@
 import './SignIn.css';
 import Grid from '@material-ui/core/Grid';
 import Hidden from '@material-ui/core/Hidden';
+import { Link } from 'react-router-dom';
 
 export default function SignInPage() {
   return (
