@@ -1,6 +1,7 @@
 .dis_CategoryImageContainer {
   width: 100%;
   background-color: #ffffff;
+  position: relative;
 }
 
 .dis_CategoryImage {
@@ -21,6 +22,24 @@
 }
 
 .dis_CategoryBackgroundImage {
-  max-width: 100%;
+  width: 100%;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.dis_CategoryImageTitle {
+  width: auto;
+  height: 70px;
+  background-color: #F4F4F4;
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.dis_CategoryImageTitle h1 {
+  margin: 0px;
+  line-height: 70px;
 }
 /*# sourceMappingURL=DiscoverCategoryImage.css.map */
