@@ -1,6 +1,4 @@
 import './FeaturedCharities.css';
-import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 import Card from '@material-ui/core/Card';
 import CardActionArea from '@material-ui/core/CardActionArea';
@@ -43,9 +41,6 @@ const featuredCharitiesStyle = makeStyles((theme) => ({
 }));
 
 export default function PrintFeaturedCharities() {
-
-  const classes = featuredCharitiesStyle();
-
   return (
       <div className="featuredCharitiesContainer" style={{justify:"center"}}>
 
@@ -174,6 +169,6 @@ export default function PrintFeaturedCharities() {
           </Card>
         </Grid>
     </Grid>
-    </div>
   );
 }
+  

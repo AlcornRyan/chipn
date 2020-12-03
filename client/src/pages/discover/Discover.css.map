@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "AAMA,AAAA,SAAS,CAAC;EACN,WAAW,EAAE,IAAI;EACjB,YAAY,EAAE,IAAI;EAClB,aAAa,EAAE,IAAI;EACnB,gBAAgB,EAAE,OAAO;CAC5B;;AAED,AAAA,iBAAiB,CAAC;EACd,UAAU,EAAE,KAAK;EACjB,aAAa,EAAE,IAAI;CACtB",
     "sources": [
         "Discover.scss"
     ],

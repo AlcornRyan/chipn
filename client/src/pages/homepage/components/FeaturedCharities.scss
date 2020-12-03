@@ -10,10 +10,9 @@ $buttonBG: #FF3A3A;
 .featuredCharitiesContainer {
     width: 100%;
     min-height: 600px;
-    height:auto;
+    max-height: 600px;
     background-color: #FFFFFF;
     background-image: linear-gradient(285deg, transparent 60%, $chipnGrey 60%);
     align-items: center;
     align-content: center;
 }
-

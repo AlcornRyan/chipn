@@ -1,0 +1,41 @@
+// SASS variables
+$chipnYellow: #FFCD00;
+$linkHover: #03A9F4;
+$darkGrey: #484848;
+$buttonBG: #FF3A3A;
+
+.dis_CategoryImageContainer {
+    width: 100%;
+    background-color: #ffffff;
+    position: relative;
+    margin-bottom: 25px;
+}
+.dis_CategoryImage {
+    width: 100%;
+    min-height: 350px;
+    max-height: 350px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+    .dis_CategoryBackgroundImage {
+        width: 100%;
+        background-size: cover;
+        overflow: hidden;
+    }
+    .dis_CategoryImageTitle {
+        width: auto;
+        height: 70px;
+        background-color: #F4F4F4;
+        position: absolute;
+        left: 10px;
+        bottom: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+        .dis_CategoryImageTitle h1 {
+            margin: 0px;
+            line-height: 70px;
+        }
