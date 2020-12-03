@@ -1,14 +1,12 @@
 import './SignIn.css';
-import Header from '../header/Header';
-import SignInBox from './components/SignInBox';
-import Footer from '../footer/Footer';
+import Grid from '@material-ui/core/Grid';
 
 export default function SignInPage() {
   return (
-    <div>
-      <Header />
-        <SignInBox />
-      <Footer />
-    </div>
+    <Grid container>
+      <Grid item md={8}>
+        Sign In
+      </Grid>
+    </Grid>
   );
 }

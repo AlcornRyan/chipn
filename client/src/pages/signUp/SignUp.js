@@ -1,14 +1,12 @@
 import './SignUp.css';
-import Header from '../header/Header';
-import SignUpBox from './components/SignUpBox';
-import Footer from '../footer/Footer';
+import Grid from '@material-ui/core/Grid';
 
 export default function SignUpPage() {
   return (
-    <div>
-      <Header />
-        <SignUpBox />
-      <Footer />
-    </div>
+    <Grid container>
+      <Grid item md={8}>
+        Sign Up
+      </Grid>
+    </Grid>
   );
 }
