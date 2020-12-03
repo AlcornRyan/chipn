@@ -1,0 +1,45 @@
+// SASS variables
+$chipnYellow: #FFCD00;
+$linkHover: #03A9F4;
+$darkGrey: #484848;
+$buttonBG: #FF3A3A;
+
+.discoverSort {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: $darkGrey;
+    background-color: #FFFFFF;
+}
+
+.dis_SortTitle {
+    font-size: 22px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #cccccc;
+}
+    .dis_SortTitle h3 {
+        margin: 0px;
+    }
+.dis_SortCategory {
+
+}
+.dis_SortCategoryHeader {
+    width: 100%;
+}
+.dis_SortCategoryBody {
+    width: 100%;
+}
+.dis_SortCategoryBody input[type="checkbox"]  {
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin-top: 8px;
+}
+.dis_SortCategoryBody p {
+    font-size: 14px;
+    float: left;
+    margin: 0px;
+    margin-top: 8px;
+    margin-left: 10px;
+}
