@@ -1,1 +1,9 @@
-/* No CSS *//*# sourceMappingURL=DiscoverCharityContainer.css.map */
+.DiscoverCharityContainer {
+  padding-bottom: 25px;
+}
+
+.dis_CharityCard {
+  min-height: 400px;
+  background-color: #FFFFFF;
+}
+/*# sourceMappingURL=DiscoverCharityContainer.css.map */
