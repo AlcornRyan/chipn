@@ -1,6 +1,5 @@
 import './WidgetInfo.css';
 import Grid from '@material-ui/core/Grid';
-import WidgetImage from '../../../images/widget.jpg';
 
 export default function PrintWidgetInfo() {
   return (
@@ -33,7 +32,7 @@ export default function PrintWidgetInfo() {
 
       {/* Widget Image - Right side */}
       <Grid item md={6} id="WI_RightContainer">
-        <img src={WidgetImage} alt="Elephant walking in desert" className="WI_backgroundImage" />
+        <img src="/images/widget.jpg" alt="Elephant walking in desert" className="WI_backgroundImage" />
       </Grid>
 
     </Grid>

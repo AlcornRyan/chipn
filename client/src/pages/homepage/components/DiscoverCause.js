@@ -1,6 +1,5 @@
 import './DiscoverCause.css';
 import Grid from '@material-ui/core/Grid';
-import LandingBackgroundImage from '../../../images/elephant.jpg';
 
 export default function PrintDiscoverCause() {
   return (
@@ -31,7 +30,7 @@ export default function PrintDiscoverCause() {
         
         {/* Right side Container */}
         <div id="discoverCauseRightContainer">
-            <img src={LandingBackgroundImage} alt="Elephant walking in desert" className="backgroundImage" />
+            <img src="/images/elephant.jpg" alt="Elephant walking in desert" className="backgroundImage" />
         </div>
 
       </Grid>
