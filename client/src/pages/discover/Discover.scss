@@ -4,3 +4,19 @@ $linkHover: #03A9F4;
 $darkGrey: #484848;
 $buttonBG: #FF3A3A;
 
+.Discover {
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #000000;
+}
+
+.sortBarContainer {
+    min-height: 700px;
+    background-color: #FFFFFF;
+}
+
+.rightContainer {
+    background-color: $darkGrey;
+    padding-left: 20px;
+}
