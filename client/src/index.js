@@ -1,6 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+// React Router
+import { BrowserRouter, Route } from 'react-router-dom';
+
+
 import './index.css';
 import store from './app/store';
 
@@ -16,17 +20,20 @@ import Homepage from './pages/homepage/Homepage';
 import Discover from './pages/discover/Discover';
 
 ReactDOM.render(
-  <React.StrictMode>
+  <BrowserRouter>
+    <React.StrictMode>
 
-    <Header />
+      <Header />
 
-    <Provider store={store}>
-      <Homepage />
-    </Provider>
+      <Provider store={store}>
+        <Route exact path='/' component={Homepage} />
+        <Route path='/discover' component={Discover} />
+      </Provider>
 
-    <Footer />
+      <Footer />
 
-  </React.StrictMode>,
+    </React.StrictMode>
+  </BrowserRouter>,
   document.getElementById('root')
 );
 
