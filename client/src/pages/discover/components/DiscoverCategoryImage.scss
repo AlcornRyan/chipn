@@ -1,0 +1,23 @@
+// SASS variables
+$chipnYellow: #FFCD00;
+$linkHover: #03A9F4;
+$darkGrey: #484848;
+$buttonBG: #FF3A3A;
+
+.dis_CategoryImageContainer {
+    width: 100%;
+    background-color: #ffffff;
+}
+.dis_CategoryImage {
+    width: 100%;
+    min-height: 350px;
+    max-height: 350px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+    .dis_CategoryBackgroundImage {
+        max-width: 100%;
+    }
