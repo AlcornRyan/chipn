@@ -21,25 +21,58 @@ $buttonBG: #FF3A3A;
     .dis_SortTitle h3 {
         margin: 0px;
     }
-.dis_SortCategory {
 
+.dis_SortCategory {
+    padding-bottom: 15px;
+    border-bottom: 1px solid #cccccc;
 }
-.dis_SortCategoryHeader {
-    width: 100%;
+    .dis_SortCategoryHeader {
+        width: 100%;
+        padding-top: 5px;
+        padding-bottom: 3px;
+    }
+    .dis_SortCategoryBody {
+        width: 100%;
+    }
+        .dis_SortCategoryBody input[type="checkbox"]  {
+            width: 18px;
+            height: 18px;
+            float: left;
+            margin-top: 8px;
+        }
+        .dis_SortCategoryBody p {
+            font-size: 14px;
+            float: left;
+            margin: 0px;
+            margin-top: 8px;
+            margin-left: 10px;
+        }
+
+.dis_SortLocatedIn {
+    padding-bottom: 15px;
+    border-bottom: 1px solid #cccccc;
 }
-.dis_SortCategoryBody {
-    width: 100%;
+
+.dis_SortMissionScope {
+    padding-bottom: 15px;
+    border-bottom: 1px solid #cccccc;
 }
-.dis_SortCategoryBody input[type="checkbox"]  {
-    width: 18px;
-    height: 18px;
-    float: left;
-    margin-top: 8px;
+
+.dis_SortHelpingIn {
+    padding-bottom: 15px;
+    border-bottom: 1px solid #cccccc;
 }
-.dis_SortCategoryBody p {
-    font-size: 14px;
-    float: left;
-    margin: 0px;
-    margin-top: 8px;
-    margin-left: 10px;
+
+.dis_SortTags {
+    padding-bottom: 15px;
+    border-bottom: 1px solid #cccccc;
+}
+
+.dis_DisplayingResults {
+    height: 40px;
+    font-size: 12px;
+    line-height: 38px;
+    text-align: center;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #cccccc;
 }

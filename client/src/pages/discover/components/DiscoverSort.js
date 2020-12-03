@@ -76,28 +76,28 @@ export default function printDiscoverSort() {
       </Grid>
       
       {/* Located in */}
-      <Grid item md={12} className="">
+      <Grid item md={12} className="dis_SortLocatedIn">
         Discover Charities
       </Grid>
       
       {/* Mission Scope */}
-      <Grid item md={12} className="">
+      <Grid item md={12} className="dis_SortMissionScope">
         Discover Charities
       </Grid>
       
       {/* Helping in */}
-      <Grid item md={12} className="">
+      <Grid item md={12} className="dis_SortHelpingIn">
         Discover Charities
       </Grid>
       
       {/* Tags */}
-      <Grid item md={12} className="">
+      <Grid item md={12} className="dis_SortTags">
         Discover Charities
       </Grid>
       
       {/* Number of results displayed */}
-      <Grid item md={12} className="">
-        Discover Charities
+      <Grid item md={12} className="dis_DisplayingResults">
+        Displaying 1 result
       </Grid>
 
 
