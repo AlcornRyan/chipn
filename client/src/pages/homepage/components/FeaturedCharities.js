@@ -7,11 +7,8 @@ import CardActionArea from '@material-ui/core/CardActionArea';
 import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
-import charityImage from '../../../images/featured.svg';
 import { Box } from '@material-ui/core';
 import Typography from '@material-ui/core/Typography';
-import als from '../../../images/als.jpg'
-import feed from '../../../images/feedingamerica.jpg';
 import Button from '@material-ui/core/Button';
 import Bookmark from '@material-ui/icons/BookmarkBorderOutlined';
 import LocationCity from '@material-ui/icons/LocationOnOutlined';
@@ -27,6 +24,7 @@ const featuredCharitiesStyle = makeStyles((theme) => ({
     margin: theme.spacing(3),
     textAlign: 'center',
     color: theme.palette.text.secondary,
+    height: "100%",
   },
   imageSection: {
     margin: theme.spacing(2),
@@ -47,9 +45,9 @@ export default function PrintFeaturedCharities() {
   const classes = featuredCharitiesStyle();
 
   return (
-      <div className="featuredCharitiesContainer" style={{justify:"center"}}>
+      <div className="featuredCharitiesContainer" >
 
-      <Grid container flexGrow="1" style={{padding:"1.5rem"}} direction="row" justify="center" alignItems="center">
+      <Grid container flexGrow="1" style={{padding:"1.5rem"}} direction="row" >
 
       <Grid item xs={12} md={4} direction="column" >
           <Box className={classes.imageSection}>
@@ -58,7 +56,7 @@ export default function PrintFeaturedCharities() {
       </Typography>
           </Box>
           <Box className={classes.imageSection} >
-            <img alt="charity" src={charityImage} style={{width:"80%", height:"80%"}}/>
+            <img alt="charity" src="/images/featured.svg" style={{width:"80%", height:"80%"}}/>
           </Box>
         </Grid>
 
@@ -68,7 +66,7 @@ export default function PrintFeaturedCharities() {
           <CardActionArea>
                 <CardMedia
                 className={classes.media}
-                image={als}
+                image="/images/als.jpg"
                 title="ALS Canada"
                 />
                 <CardContent style={{justifyContent:"center"}}>
@@ -123,7 +121,7 @@ export default function PrintFeaturedCharities() {
           <CardActionArea>
                 <CardMedia
                 className={classes.media}
-                image={feed}
+                image="/images/feedingamerica.jpg"
                 title="Feeding America"
                 />
                 <CardContent style={{justifyContent:"center"}}>
