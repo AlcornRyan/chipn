@@ -18,7 +18,10 @@ export default function printDiscoverSort() {
           <h4>Categories</h4>
         </Grid>
         
-        {/* Category sort options */}
+        {/*
+        Category sort options
+        // TODO: Add Material-UI Acordian ( https://material-ui.com/components/accordion/ )
+        */}
         <Grid container className="dis_SortCategoryBody">
 
           <Grid item md={12}>
