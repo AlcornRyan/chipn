@@ -13,7 +13,7 @@ export default function printDiscoverSort() {
       {/* Category */}
       <Grid item md={12} className="dis_SortCategory">
         
-        {/* Category Title and Hide button */}
+        {/* Heading and Hide button */}
         <Grid item md={12} className="dis_SortCategoryHeader">
           <h4>Categories</h4>
         </Grid>
@@ -77,22 +77,74 @@ export default function printDiscoverSort() {
       
       {/* Located in */}
       <Grid item md={12} className="dis_SortLocatedIn">
-        Discover Charities
+        
+        {/* Heading and Hide button */}
+        <Grid item md={12} className="dis_SortCategoryHeader">
+          <h4>Located in</h4>
+        </Grid>
+        
+        {/* Select charity location */}
+        <Grid item md={12}>
+          <select name="locatedIn" className="sortSelectStyling">
+            <option>All locations</option>
+            <option value="Canada">Canada</option>
+            <option value="USA">USA</option>
+          </select>
+        </Grid>
+
       </Grid>
       
       {/* Mission Scope */}
       <Grid item md={12} className="dis_SortMissionScope">
-        Discover Charities
+        
+        {/* Heading and Hide button */}
+        <Grid item md={12} className="dis_SortCategoryHeader">
+          <h4>Mission scope</h4>
+        </Grid>
+        
+        {/* Select mission scope of charity */}
+        <Grid item md={12}>
+          <select name="missionScope" className="sortSelectStyling">
+            <option>All Mission Scopes</option>
+            <option value="Canada">Canada</option>
+            <option value="USA">USA</option>
+          </select>
+        </Grid>
+
       </Grid>
       
       {/* Helping in */}
       <Grid item md={12} className="dis_SortHelpingIn">
-        Discover Charities
+        
+        {/* Heading and Hide button */}
+        <Grid item md={12} className="dis_SortCategoryHeader">
+          <h4>Helping in</h4>
+        </Grid>
+
+        {/* Select location charity is helping in */}
+        <Grid item md={12}>
+          <select name="helpingIn" className="sortSelectStyling">
+            <option>All locations</option>
+            <option value="Canada">Canada</option>
+            <option value="USA">USA</option>
+          </select>
+        </Grid>
+
       </Grid>
       
       {/* Tags */}
       <Grid item md={12} className="dis_SortTags">
-        Discover Charities
+        
+        {/* Heading and Hide button */}
+        <Grid item md={12} className="dis_SortCategoryHeader">
+          <h4>Tags</h4>
+        </Grid>
+
+        {/* */}
+        <Grid item md={12}>
+          <input type="text" name="tags" placeholder="Search Tags" className="sortTextInputStyling" />
+        </Grid>
+
       </Grid>
       
       {/* Number of results displayed */}
