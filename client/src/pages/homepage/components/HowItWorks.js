@@ -7,10 +7,6 @@ import CardActionArea from '@material-ui/core/CardActionArea';
 import CardContent from '@material-ui/core/CardContent';
 import { Box } from '@material-ui/core';
 import Typography from '@material-ui/core/Typography';
-import Button from '@material-ui/core/Button';
-import LocationCity from '@material-ui/icons/LocationOnOutlined';
-import View from '@material-ui/icons/VisibilityOutlined';
-import IconButton from '@material-ui/core/IconButton';
 
 const howItWorksStyle = makeStyles((theme) => ({
 
@@ -48,7 +44,7 @@ export default function PrintHowItWorks() {
 
       <Grid item xs={12} md={6} lg={4} direction="column" >
           <Box className={classes.imageSection}>
-          <Typography variant="h4" gutterBottom style={{fontWeight:"bold" }}>
+          <Typography variant="h4" gutterBottom style={{fontWeight:"100" }}>
         How It Works
       </Typography>
           </Box>
@@ -70,7 +66,7 @@ export default function PrintHowItWorks() {
                      1
                       </Typography> */}
        
-                <img alt="1" src="images/1number.svg" style={{width:"30%", height:"30%", padding:"15px"}}/>
+                <img alt="1" src="images/1number.svg" style={{width:"30%", height:"30%", margin:"5px"}}/>
          
                 </Grid>
 
@@ -108,7 +104,7 @@ export default function PrintHowItWorks() {
                      1
                       </Typography> */}
        
-                <img alt="2" src="images/2number.svg" style={{width:"30%", height:"30%", padding:"15px"}}/>
+                <img alt="2" src="images/2number.svg" style={{width:"30%", height:"30%", margin:"5px"}}/>
          
                 </Grid>
 
@@ -147,7 +143,7 @@ export default function PrintHowItWorks() {
                      1
                       </Typography> */}
        
-                <img alt="3" src="images/3number.svg" style={{width:"30%", height:"30%", padding:"15px"}}/>
+                <img alt="3" src="images/3number.svg" style={{width:"30%", height:"30%", margin:"5px"}}/>
          
                 </Grid>
 
@@ -186,7 +182,7 @@ export default function PrintHowItWorks() {
                      1
                       </Typography> */}
        
-                <img alt="4" src="images/4number.svg" style={{width:"30%", height:"30%", padding:"15px"}}/>
+                <img alt="4" src="images/4number.svg" style={{width:"30%", height:"30%", margin:"5px"}}/>
                 
                 </Grid>
 
@@ -197,7 +193,7 @@ export default function PrintHowItWorks() {
                 </Grid>
 
                 <Grid item>
-                <img alt="1" src="/images/worktogether1.svg"  style={{width:"80%", height:"80%", marginTop:"25px", marginBottom:"25px", padding:"5px"}}/>
+                <img alt="1" src="/images/worktogether2.svg"  style={{width:"80%", height:"80%", marginTop:"25px", marginBottom:"25px", padding:"5px"}}/>
                 </Grid>
 
                 <Grid item>

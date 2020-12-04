@@ -24,7 +24,7 @@ const featuredCharitiesStyle = makeStyles((theme) => ({
     margin: theme.spacing(3),
     textAlign: 'center',
     color: theme.palette.text.secondary,
-    height: "100%",
+    height: "auto",
   },
   imageSection: {
     margin: theme.spacing(2),
@@ -51,7 +51,7 @@ export default function PrintFeaturedCharities() {
 
       <Grid item xs={12} md={4} direction="column" >
           <Box className={classes.imageSection}>
-          <Typography variant="h4" gutterBottom style={{fontWeight:"bold" }}>
+          <Typography variant="h4" gutterBottom style={{fontWeight:"150" }}>
         Featured Charities
       </Typography>
           </Box>

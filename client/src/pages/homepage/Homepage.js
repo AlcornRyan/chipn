@@ -7,17 +7,10 @@ import WidgetInfo from './components/WidgetInfo';
 export default function LandingPage() {
   return (
     <div>
-      {/*Slideshow()*/}
       <DiscoverCause />
       <HowItWorks />
       <FeaturedCharities />
       <WidgetInfo />
     </div>
-  );
-}
-
-function Slideshow() {
-  return (
-    'asdasd'
   );
 }

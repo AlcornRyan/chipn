@@ -1,6 +1,7 @@
 .widgetInfoContainer {
   width: 100%;
   min-height: 750px;
+  height: auto;
   color: #484848;
   background-color: #F9F9F9;
   border-bottom: 1px solid #cccccc;
