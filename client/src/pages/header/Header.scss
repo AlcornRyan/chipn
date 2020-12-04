@@ -4,91 +4,74 @@ $linkHover: black;
 $darkGrey: #484848;
 $headerBackground: #ffffff;
 
-.headerContainer {
-    min-height: "20%";
-    height:"auto";
-    background-color: #FFFFFF;
-    color: white;
+.gridContainer{
+    flex-grow: 1 !important;
+    align-items: center !important;
+    height:auto !important;
+    color: white !important;
+    background-color: transparent !important;
 }
+
+.appbar{
+    align-items: center !important;
+    flex-grow: 1 !important;
+}
+
+.headerContainer:active{
+    background-color: transparent !important;
+}
+
 .login{
     color:white !important;
-    border: 1.4px solid white !important;
     background-color:transparent !important;
 }
 
 .login:hover{
-    color:white !important;
-    border: 1.4px solid black !important;
-    background-color:black !important;
-}
-
-.signup{
-    color:white !important;
-    background-color: transparent !important;
-    border: 1.4px solid transparent !important;
-    padding:10px !important;
-    border-radius: 10px !important; 
-}
-
-.signup:hover{
-
-    color:white !important;
-    background-color: black !important;
-    border: 1.4px solid transparent !important;
-    padding:10px !important;
-    border-radius: 10px !important; 
-}
-
-.signup:active{
-    color:white !important;
-    background-color: black !important;
-    border: 1.4px solid transparent !important;
-    padding:10px !important;
-    border-radius: 10px !important; 
+    color:$chipnYellow !important;
 }
 
 .discover{
     color:white !important;
-    background-color: transparent !important;
 }
 
 .discover:hover{
-    color:white !important;
-    background-color: black !important;
+    color:$chipnYellow !important;
 }
 
 .search{
+    padding:1em !important;
     color: white !important;
     background-color: transparent !important;
+    border-radius: 10px !important;
+    outline:none;
 }
 
 .search:hover{
-    color: white !important;
-    box-shadow: none !important;
-    outline:white !important;
-
+    color: $chipnYellow !important;
+    border: 1px $chipnYellow solid !important;
+    border-radius: 10px !important;
 }
 
-.search:active{
-    color: white !important;
-    box-shadow: none;
-    outline: white !important;
-
+.register{
+    color:white !important;
+    background-color:transparent !important;
 }
 
-.search:focus{
-    color: white !important;
-    box-shadow: none;
-    outline: white !important;
-
+.register:hover{
+    color:$chipnYellow !important;
 }
 
-.chipnLogo{
-    color:white;
-    padding:1em !important;
-    border: 1.4px solid transparent !important;
+.logochipn{
+    width: 200px;
+    height: 40px;
+    background-color: $chipnYellow;
+    object-fit: contain;
 }
 
-.chipnLogo:hover{
-    background-color: black !important;
+.items{
+    padding: 1em !important;
+}
+
+.gridcontain{
+    background-color: black;
 }
