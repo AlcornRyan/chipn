@@ -54,7 +54,7 @@ export default function PrintHeader(props) {
         <React.Fragment>
         <CssBaseline />
       <HideOnScroll {...props}>
-        <AppBar style={{backgroundImage:'url("/images/elephantblur.jpg")', backgroundSize: "cover", color:"transparent"}} >
+        <AppBar style={{backgroundImage:'url("/images/wtiger.png")', backgroundSize: "cover", color:"transparent"}} >
           <Toolbar>
 
 
@@ -100,10 +100,9 @@ export default function PrintHeader(props) {
             </Grid>
 
 
-            <Grid >
+            <Grid item spacing={2}>
               {/* Sign up Link */}
-              <NavLink to="/signup" className="signup" style={{border: "1.4px solid transparent",
-              borderRadius: "10px", padding:"10px"}}>sign up</NavLink>
+              <NavLink to="/signup" className="signup">sign up</NavLink>
             </Grid>
 
         </Toolbar>

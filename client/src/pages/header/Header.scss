@@ -11,24 +11,40 @@ $headerBackground: #ffffff;
     color: white;
 }
 .login{
-    color:white;
-    border: 1.4px solid white;
+    color:white !important;
+    border: 1.4px solid white !important;
+    background-color:transparent !important;
 }
 
 .login:hover{
     color:white !important;
     border: 1.4px solid black !important;
-    outline:none;
     background-color:black !important;
 }
 
 .signup{
     color:white !important;
     background-color: transparent !important;
+    border: 1.4px solid transparent !important;
+    padding:10px !important;
+    border-radius: 10px !important; 
 }
+
 .signup:hover{
+
     color:white !important;
     background-color: black !important;
+    border: 1.4px solid transparent !important;
+    padding:10px !important;
+    border-radius: 10px !important; 
+}
+
+.signup:active{
+    color:white !important;
+    background-color: black !important;
+    border: 1.4px solid transparent !important;
+    padding:10px !important;
+    border-radius: 10px !important; 
 }
 
 .discover{

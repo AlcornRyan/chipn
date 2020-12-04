@@ -56,7 +56,7 @@ export default function PrintFeaturedCharities() {
       </Typography>
           </Box>
           <Box className={classes.imageSection} >
-            <img alt="charity" src="/images/featured.svg" style={{width:"80%", height:"80%"}}/>
+            <img alt="charity" src="/images/featured.svg" style={{width:"70%", height:"70%"}}/>
           </Box>
         </Grid>
 

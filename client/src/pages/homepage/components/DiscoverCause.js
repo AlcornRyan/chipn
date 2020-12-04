@@ -8,7 +8,7 @@ export default function PrintDiscoverCause() {
   return (
 
     <div className="discoverCauseContainer" 
-    style={{ backgroundImage: 'url("/images/elephant.jpg")', 
+    style={{ backgroundImage: 'url("/images/wtiger.jpg")', 
     objectFit:"cover", backgroundSize:"cover"}}>
    
     <Grid container flexGrow="1" direction="row" style={{padding:"4rem"}}>

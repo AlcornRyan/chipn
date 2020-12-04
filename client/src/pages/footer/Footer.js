@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 export default function footerContainer() {
   return (
-    <footer>
+    <footer >
       <Grid container  className="footerContainer">
 
           {/* Logo, Slogan & Support - Column 1 */}
@@ -29,7 +29,7 @@ export default function footerContainer() {
 
           {/* Column 3 */}
           <Grid item md={2} className="footerContentColumn">
-            <u><h4>Explore&nbsp;&nbsp;</h4></u>
+            <u><h4></h4></u>
             <ul>
               <li><Link to="#">Home</Link></li>
               <li><Link to="#">Discover</Link></li>
