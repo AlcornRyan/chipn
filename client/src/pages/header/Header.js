@@ -51,6 +51,8 @@ export default function PrintHeader(props) {
            <NavLink to="/discover" className="discover" >discover</NavLink>
         </Grid>
 
+        <Grid item sm={1} md={4} lg={6}></Grid>
+
         <Grid item className="items">
           {/* Search bar */}
             <input type="text" className="search" placeholder="Search Charities"
