@@ -29,7 +29,7 @@ export default function PrintHeader(props) {
 
   return (
   
-    <Grid container style={{ paddingBottom:"7em", backgroundColor:"#141414"}}>
+    <Grid container className="outerContainer" >
         {/* Header Container */}
         <React.Fragment >
         <CssBaseline />
