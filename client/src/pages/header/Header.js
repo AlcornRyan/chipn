@@ -28,11 +28,12 @@ HideOnScroll.propTypes = {
 export default function PrintHeader(props) {
 
   return (
-    <Grid container >
+  
+    <Grid container style={{ paddingBottom:"7em", backgroundColor:"#141414"}}>
         {/* Header Container */}
-        <React.Fragment>
+        <React.Fragment >
         <CssBaseline />
-      <HideOnScroll {...props}>
+      <HideOnScroll {...props} >
         <AppBar className="appbar">
 
         <Grid container direction="row" className="gridcontain">
@@ -75,5 +76,6 @@ export default function PrintHeader(props) {
       </HideOnScroll>
       </React.Fragment>
       </Grid>
+
   );
 }

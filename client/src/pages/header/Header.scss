@@ -7,71 +7,76 @@ $headerBackground: #ffffff;
 .gridContainer{
     flex-grow: 1 !important;
     align-items: center !important;
-    height:auto !important;
-    color: white !important;
-    background-color: transparent !important;
+    height:100% !important;
+    background-color:black !important;
 }
 
 .appbar{
     align-items: center !important;
     flex-grow: 1 !important;
-}
-
-.headerContainer:active{
-    background-color: transparent !important;
+    background-color: #000000 !important;
 }
 
 .login{
-    color:white !important;
+    padding:1em !important;
+    color:black !important;
     background-color:transparent !important;
 }
 
 .login:hover{
     color:$chipnYellow !important;
+    background-color:black !important;
 }
 
 .discover{
-    color:white !important;
+    padding:1em !important;
+    color:black !important;
 }
 
 .discover:hover{
     color:$chipnYellow !important;
+    background-color:black !important;
 }
 
 .search{
     padding:1em !important;
-    color: white !important;
+    color: black !important;
     background-color: transparent !important;
+    border: 1px black solid !important;
     border-radius: 10px !important;
-    outline:none;
+    outline: none;
 }
 
 .search:hover{
-    color: $chipnYellow !important;
-    border: 1px $chipnYellow solid !important;
+    color: black !important;
+    border: 1px black solid !important;
     border-radius: 10px !important;
 }
 
 .register{
-    color:white !important;
+    padding:1em !important;
+    color:black !important;
     background-color:transparent !important;
 }
 
 .register:hover{
     color:$chipnYellow !important;
+    background-color:black !important;
 }
 
 .logochipn{
-    width: 200px;
-    height: 40px;
-    background-color: $chipnYellow;
-    object-fit: contain;
-}
-
-.items{
-    padding: 1em !important;
+    width: 150px !important;
+    height: 35px !important;
+    object-fit: contain !important;
 }
 
 .gridcontain{
-    background-color: black;
+    align-items: center !important;
+    background-color: $chipnYellow !important;
+    height:100% !important;
+}
+
+.items{
+    padding:10px !important;
+    height:100% !important;
 }
