@@ -13,6 +13,7 @@ $chipnYellowWhite: #fff3bf;
 $chipnYellowLight: #ffda40;
 $chipnYellowLightest:#fff6d1;
 $chipnLightGrey: #f7f7f7;
+$chipnLightest: #ffe062;
 
 .widgetInfoContainer {
     width: 100% !important;
@@ -29,10 +30,13 @@ $chipnLightGrey: #f7f7f7;
 
 .signup{
     color: black !important;
-    border: 1.4px solid black !important;
+    border: 2px solid black !important;
+    border-radius: 10px !important;
 }
 
 .signup:hover{
-    border: 1.4px solid transparent !important;
-    color:white !important;
+    border: 3px solid transparent !important;
+    color:$chipnYellow !important;
+    background-color: black !important;
+    border-radius: 10px !important;
 }

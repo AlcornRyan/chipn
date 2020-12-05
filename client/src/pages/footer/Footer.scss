@@ -27,7 +27,6 @@ a {
 .footerContainer {
     width: 100%;
     height: auto;
-    border-bottom: 1px solid #cccccc;
     padding-top: 25px;
     padding-left: 40px;
     padding-right: 40px;
@@ -36,6 +35,8 @@ a {
     .footerColumn {
         width: 100%;
         padding-left: 10px;
+        margin-bottom: 1em !important;
+
     }
     .footerColumn img, h4, h5, h6 {
         display: block;
@@ -45,6 +46,7 @@ a {
     .footerColumn img {
         width: 120px;
         margin-bottom: 12px;
+        color:black !important;
     }
     .footerColumn h4 {
         font-size: 18px;

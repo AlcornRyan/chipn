@@ -14,3 +14,12 @@ $buttonBG: #FF3A3A;
     text-align: center;
 }
 
+.discoverbtn{
+    font-size: 1.4em !important;
+}
+
+.discoverbtn:hover{
+    background-color: $chipnYellow !important;
+    color: black !important;
+    border: 3px $chipnYellow solid !important;
+}

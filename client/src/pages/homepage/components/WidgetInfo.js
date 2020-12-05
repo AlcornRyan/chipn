@@ -2,7 +2,7 @@ import './WidgetInfo.css';
 import Grid from '@material-ui/core/Grid';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
-
+import { NavLink } from 'react-router-dom';
 
 export default function PrintWidgetInfo() {
   return (
@@ -36,12 +36,14 @@ export default function PrintWidgetInfo() {
             </div>
             
             <div style={{margin:"4em"}}>
+            <NavLink to="/signup">
               <Button 
               className="signup" style={{padding:"0.7em", 
               color:"white",fontSize:"1.4em", width:"12rem",
               border:"1.4px solid black"}}>
                 Sign up
               </Button>
+              </NavLink>
               </div>
 
       </Grid>

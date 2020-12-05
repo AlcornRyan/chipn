@@ -2,6 +2,7 @@ import './DiscoverCause.css';
 import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
+import { NavLink } from 'react-router-dom';
 
 export default function PrintDiscoverCause() {
 
@@ -10,7 +11,7 @@ export default function PrintDiscoverCause() {
     <div className="discoverCauseContainer" 
     style={{ backgroundImage: 'url("/images/wtiger.jpg")', 
     objectFit:"cover", backgroundSize:"cover"}}>
-   
+
     <Grid container flexGrow="1" direction="row" style={{padding:"4rem"}}>
 
       <Grid item xs={12} md={12} direction="column">
@@ -28,20 +29,16 @@ export default function PrintDiscoverCause() {
       </Grid>
       <Grid item xs={12} md={12} direction="column" style={{marginBottom:"10rem"}}>
         
-        
-        <Button color="white" 
-        style={{padding:"1rem", color:"white", border: "1.5px solid #FFFFFF", borderRadius:"10px"}}>
+        <NavLink to="/discover">
 
-      <Typography variant="h6" style={{color:"white"}}>
-       Discover a cause
-      </Typography>
-            </Button>
+          <Button color="white" className="discoverbtn" 
+          style={{padding:"1rem", color:"white", border: "1.5px solid #FFFFFF", borderRadius:"10px"}}>
+                Discover a cause
+              </Button>
+        </NavLink>
+
       </Grid>
-          
-
     </Grid>
     </div>
-
   );
 }
-  

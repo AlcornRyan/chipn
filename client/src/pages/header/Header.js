@@ -78,6 +78,5 @@ export default function PrintHeader(props) {
       </HideOnScroll>
       </React.Fragment>
       </Grid>
-
   );
 }

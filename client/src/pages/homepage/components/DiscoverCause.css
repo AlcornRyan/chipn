@@ -6,4 +6,14 @@
   color: #484848;
   text-align: center;
 }
+
+.discoverbtn {
+  font-size: 1.4em !important;
+}
+
+.discoverbtn:hover {
+  background-color: #FFCD00 !important;
+  color: black !important;
+  border: 3px #FFCD00 solid !important;
+}
 /*# sourceMappingURL=DiscoverCause.css.map */

@@ -9,7 +9,7 @@ export default function footerContainer() {
       <Grid container  className="footerContainer">
 
           {/* Logo, Slogan & Support - Column 1 */}
-          <Grid item md={2} className="footerColumn">
+          <Grid item sm={6} md={3} className="footerColumn">
             <Link to="/"><img src={ChipnLogo} alt="Chipn Logo" /></Link>
             <h4>Supporting Global Giving</h4>
             <h5>Having troubles? Contact us!</h5>
@@ -17,8 +17,8 @@ export default function footerContainer() {
           </Grid>
 
           {/* Explore - Column 2 */}
-          <Grid item md={2} className="footerContentColumn">
-            <u><h4>Explore&nbsp;&nbsp;&nbsp;</h4></u>
+          <Grid item sm={6} md={2} className="footerContentColumn">
+            <h4>EXPLORE</h4>
             <ul>
               <li><Link to="#">Home</Link></li>
               <li><Link to="#">Discover</Link></li>
@@ -27,7 +27,7 @@ export default function footerContainer() {
             </ul>
           </Grid>
 
-          {/* Column 3 */}
+          {/* Column 3
           <Grid item md={2} className="footerContentColumn">
             <u><h4></h4></u>
             <ul>
@@ -35,11 +35,11 @@ export default function footerContainer() {
               <li><Link to="#">Discover</Link></li>
               <li><Link to="#">How it works</Link></li>
             </ul>
-          </Grid>
+          </Grid> */}
 
           {/* About us - Column 4 */}
-          <Grid item md={2} className="footerContentColumn">
-            <u><h4>About us&nbsp;&nbsp;</h4></u>
+          <Grid item sm={6} md={2} className="footerContentColumn">
+            <h4>ABOUT US</h4>
             <ul>
               <li><Link to="#">Company</Link></li>
               <li><Link to="#">Our Mission</Link></li>
@@ -49,8 +49,8 @@ export default function footerContainer() {
           </Grid>
 
           {/* Social Media - Column 5 */}
-          <Grid item md={2} className="footerContentColumn">
-            <u><h4>Social Media&nbsp;&nbsp;</h4></u>
+          <Grid item sm={6} md={2} className="footerContentColumn">
+            <h4>SOCIAL MEDIA</h4>
             <ul>
               <li><Link to="#">Facebook</Link></li>
               <li><Link to="#">Instagram</Link></li>
@@ -60,8 +60,8 @@ export default function footerContainer() {
           </Grid>
 
           {/* Need help? - Column 6 */}
-          <Grid item md={2} className="footerContentColumn">
-            <u><h4>Need help?&nbsp;&nbsp;</h4></u>
+          <Grid item sm={6} md={3} className="footerContentColumn">
+            <h4>NEED HELP?</h4>
             <ul>
               <li><Link to="#">FAQ</Link></li>
               <li><Link to="#">Getting started</Link></li>
