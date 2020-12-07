@@ -17,11 +17,6 @@ export default function printCharityBanner() {
               </Grid>
             </Grid>
 
-            {/* Charity Title */}
-            <Grid item md={12} className="cBanner_TitleCon">
-              <h1>Unicef Canada</h1>
-            </Grid>
-
           </Grid>
 
         </Grid>
