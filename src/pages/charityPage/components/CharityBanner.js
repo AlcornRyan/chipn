@@ -8,22 +8,20 @@ export default function printCharityBanner() {
         
         <Grid container>
         
-          <Grid item md={4}>
+          <Grid item md={12}>
 
             {/* Charity Logo */}
-            <Grid item md={12} className="cBanner_Logo">
-
+            <Grid item md={12} className="cBanner_LogoCon">
+              <Grid className="cBanner_Logo">
+                <img src="/public/images/charity/unicef_logo.png" />
+              </Grid>
             </Grid>
 
             {/* Charity Title */}
-            <Grid item md={12} className="cBanner_Title">
+            <Grid item md={12} className="cBanner_TitleCon">
               <h1>Unicef Canada</h1>
             </Grid>
 
-          </Grid>
-        
-          <Grid item md={8}>
-            
           </Grid>
 
         </Grid>
