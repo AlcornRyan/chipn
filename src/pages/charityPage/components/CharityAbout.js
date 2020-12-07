@@ -8,8 +8,21 @@ export default function printCharityAbout() {
       
         
         <Grid item md={12} className="c_TitleCon">
-          <h1 className="cTitle">Unicef Canada</h1>
-          <h4 className="cBusinessNumber"><span className="cBusinessNumberSmall">Business No: </span>122680572RR0001</h4>
+          <Grid container>
+            <Grid item md={6}>
+              <Grid container>
+                <Grid item md={12}>
+                  <h1 className="c_Title">Unicef Canada</h1><br />
+                </Grid>
+                <Grid item md={12}>
+                  <h5 className="c_Location">in Toronto, Ontario, Canada</h5>
+                </Grid>
+              </Grid>
+            </Grid>
+            <Grid item md={6}>
+              <h4 className="c_BusinessNumber"><span className="c_BusinessNumberSmall">Business No: </span>122680572RR0001</h4>
+            </Grid>
+          </Grid>
         </Grid>
         
         <Grid item md={12} className="c_ContentCon">

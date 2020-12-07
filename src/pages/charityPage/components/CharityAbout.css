@@ -10,22 +10,32 @@
 .c_TitleCon {
   padding-left: 10px;
   padding-right: 10px;
+  padding-bottom: 8px;
   border-bottom: 1px solid #CCCCCC;
 }
 
-.cTitle {
+.c_Title {
   float: left;
   margin: 0px;
-  margin-top: 35px;
+  margin-top: 10px;
 }
 
-.cBusinessNumber {
+.c_Location {
+  color: #484848;
+  float: left;
+  margin: 0px;
+  margin-top: 1px;
+  margin-left: 2px;
+  font-weight: 500;
+}
+
+.c_BusinessNumber {
   float: right;
   margin: 0px;
-  margin-top: 54px;
+  margin-top: 50px;
 }
 
-.cBusinessNumberSmall {
+.c_BusinessNumberSmall {
   font-size: 14px;
   font-weight: 400;
 }
