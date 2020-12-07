@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAMA,AAAA,eAAe,CAAC;EACZ,WAAW,EAAE,IAAI;EACjB,gBAAgB,EAAE,OAAO;CAC5B",
+    "sources": [
+        "CharitySidebar.scss"
+    ],
+    "names": [],
+    "file": "CharitySidebar.css"
+}

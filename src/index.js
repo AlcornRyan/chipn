@@ -17,6 +17,7 @@ import Footer from './pages/footer/Footer';
 // Imported Pages
 import Homepage from './pages/homepage/Homepage';
 import Discover from './pages/discover/Discover';
+import CharityPage from './pages/charityPage/CharityPage';
 import SignIn from './pages/signIn/SignIn';
 import SignUp from './pages/signUp/SignUp';
 
@@ -29,6 +30,7 @@ ReactDOM.render(
       <Provider store={store}>
         <Route exact path='/' component={Homepage} />
         <Route path='/discover' component={Discover} />
+        <Route path='/charity' component={CharityPage} />
         <Route path='/signin' component={SignIn} />
         <Route path='/signup' component={SignUp} />
       </Provider>
