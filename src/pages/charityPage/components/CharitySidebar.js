@@ -1,8 +1,5 @@
 import './CharitySidebar.css';
 import Grid from '@material-ui/core/Grid';
-import TextField from '@material-ui/core/TextField';
-import { makeStyles } from '@material-ui/core/styles';
-import Button from '@material-ui/core/Button';
 
 export default function printCharitySidebar() {
   
@@ -32,11 +29,12 @@ export default function printCharitySidebar() {
 
             {/* Finances */}
             <Grid item md={3}>
-              <a>Spending</a>
+              <a>History</a>
             </Grid>
 
           </Grid>
 
+          <Grid className="cSB_LineSeparator"></Grid>
           {/* Tiers */}
           <Grid container className="cSB_TierCon">
             
@@ -56,7 +54,7 @@ export default function printCharitySidebar() {
 
                 {/* Title */}
                 <Grid item md={10}>
-                  <h3>Tier 1</h3>
+                  <h4>Tier 1</h4>
                   <p>Tier 1 description</p>
                 </Grid>
 
@@ -76,7 +74,7 @@ export default function printCharitySidebar() {
 
                 {/* Title */}
                 <Grid item md={10}>
-                  <h3>Tier 2</h3>
+                  <h4>Tier 2</h4>
                   <p>Tier 2 description</p>
                 </Grid>
 
@@ -96,7 +94,7 @@ export default function printCharitySidebar() {
 
                 {/* Title */}
                 <Grid item md={10}>
-                  <h3>Tier 3</h3>
+                  <h4>Tier 3</h4>
                   <p>Tier 3 description</p>
                 </Grid>
 
@@ -105,6 +103,7 @@ export default function printCharitySidebar() {
 
           </Grid>
 
+          <Grid className="cSB_LineSeparator"></Grid>
           {/* Donate */}
           <Grid container className="cSB_DonateCon">
             
@@ -116,35 +115,40 @@ export default function printCharitySidebar() {
             <form noValidate autoComplete="off">
               <Grid container justify="center" spacing={3}>
 
+                {/* Donation Amount */}
+                <Grid item md={12}>
+                  <label>Donation Amount</label>
+                  <input type="text" name="password" placeholder="" maxlength="19" className="cSB_Input" />
+                </Grid>
+                
                 {/* Credit Card Number */}
                 <Grid item md={12}>
-                  <label>Credit Card Number</label>
-                  <input type="password" name="password" className="cSB_Input" />
+                  <label className="cSB_RaiseAll">Credit Card Number</label>
+                  <input type="text" name="password" placeholder="#### #### #### ####" maxlength="19" className="cSB_Input" />
                 </Grid>
 
                 {/* Expiry */}
                 <Grid item md={6}>
-                  <label>Expiry</label>
-                  <input type="password" name="password" className="cSB_Input" />
+                  <label className="cSB_RaiseAll">Expiry</label>
+                  <input type="text" name="password" placeholder="MM/YY" maxlength="5" className="cSB_Input" />
                 </Grid>
 
                 {/* CVC */}
                 <Grid item md={6}>
-                  <label>CVC</label>
-                  <input type="password" name="password" className="cSB_Input" />
+                  <label className="cSB_RaiseAll">CVC</label>
+                  <input type="text" name="password" placeholder="" maxlength="3" className="cSB_Input" />
+                </Grid>
+
+                <Grid container className="donatingStatus">
+                  <Grid item md={12} className="donatingStatus_Inner">
+                    <p>Currently donating anonymously</p>
+                  </Grid>
                 </Grid>
 
                 <button>Donate</button>
 
               </Grid>
             </form>
-          
-          {/* Tier 1 - Link */}
-          <Grid item md={12} className="cSB_Tier">
-            <Grid container>
-
-            </Grid>
-          </Grid>
 
           </Grid>
 

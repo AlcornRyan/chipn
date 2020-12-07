@@ -6,10 +6,28 @@ export default function printCharityBanner() {
     <Grid container className="CharityBanner">
       <Grid item md={12} className="">
         
-        {/* Charity Logo */}
-        <Grid className="cBanner_Logo">
+        <Grid container>
+        
+          <Grid item md={4}>
+
+            {/* Charity Logo */}
+            <Grid item md={12} className="cBanner_Logo">
+
+            </Grid>
+
+            {/* Charity Title */}
+            <Grid item md={12} className="cBanner_Title">
+              <h1>Unicef Canada</h1>
+            </Grid>
+
+          </Grid>
+        
+          <Grid item md={8}>
+            
+          </Grid>
 
         </Grid>
+        
 
       </Grid>
     </Grid>

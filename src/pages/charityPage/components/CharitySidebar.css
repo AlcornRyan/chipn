@@ -1,17 +1,19 @@
 .CharitySidebar {
+  height: auto;
   padding-top: 20px;
-  padding-bottom: 15px;
+  padding-bottom: 30px;
   margin-top: 20px;
   background-color: #FFFFFF;
 }
 
 .cSB_NavigationCon {
   text-align: center;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
 }
 
 .cSB_NavigationCon a {
   font-size: 14px;
+  font-weight: 500;
 }
 
 .cSB_NavigationCon a:hover {
@@ -23,10 +25,16 @@
   padding-right: 20px;
 }
 
+.cSB_TierCon h3 {
+  margin: 0px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
 .cSB_Tier {
   height: auto;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 11px;
+  padding-bottom: 13px;
 }
 
 .cSB_TierLogo {
@@ -36,9 +44,9 @@
   background-color: #eee;
 }
 
-.cSB_Tier h3 {
+.cSB_Tier h4 {
   margin: 0px;
-  margin-top: -1px;
+  margin-top: -2px;
   padding-left: 2px;
 }
 
@@ -52,12 +60,22 @@
 .cSB_LineSeparator {
   width: 100%;
   height: 1px;
-  border-bottom: 1px solid #CCCCCC;
+  border-bottom: 1px solid #E1E1E1;
 }
 
 .cSB_DonateCon {
   padding-left: 20px;
-  padding-right: 20px;
+  padding-right: 25px;
+}
+
+.cSB_DonateCon h3 {
+  margin: 0px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.cSB_DonateCon label {
+  color: #484848;
 }
 
 .cSB_Input {
@@ -67,6 +85,30 @@
   border: 1px solid #CCCCCC;
   border-radius: 5px;
   padding-left: 5px;
+}
+
+.cSB_RaiseAll {
+  margin-top: -10px;
+}
+
+.cSB_DonateCon ::-webkit-input-placeholder {
+  color: #999999;
+  letter-spacing: 1px;
+}
+
+.cSB_DonateCon :-ms-input-placeholder {
+  color: #999999;
+  letter-spacing: 1px;
+}
+
+.cSB_DonateCon ::-ms-input-placeholder {
+  color: #999999;
+  letter-spacing: 1px;
+}
+
+.cSB_DonateCon ::placeholder {
+  color: #999999;
+  letter-spacing: 1px;
 }
 
 .cSB_DonateCon button {
@@ -79,5 +121,29 @@
   background-color: #5085EC;
   border: 1px solid #5085EC;
   border-radius: 14px;
+}
+
+.donatingStatus {
+  width: 100%;
+  min-width: 100%;
+  margin-top: 10px;
+  margin-bottom: 4px;
+  padding-left: 10px;
+  text-align: center;
+}
+
+.donatingStatus_Inner {
+  height: 45px;
+  color: #484848;
+  font-size: 15px;
+  border-radius: 10px;
+  background-color: #F4F4F4;
+  border: 1px solid #E1E1E1;
+}
+
+.donatingStatus p {
+  margin: 0px;
+  padding: 0px;
+  line-height: 45px;
 }
 /*# sourceMappingURL=CharitySidebar.css.map */
