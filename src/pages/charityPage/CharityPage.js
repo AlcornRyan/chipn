@@ -6,21 +6,25 @@ import CharityAbout from './components/CharityAbout';
 
 export default function CharityPage() {
   return (
-    <Grid container className="CharityPage">
+    <Grid container>
       
       {/* Charity Banner */}
       <Grid item md={12}>
         <CharityBanner />
       </Grid>
 
-      {/* Charity Sidebar */}
-      <Grid item md={3} className="sortBarContainer">
-        <CharitySidebar />
-      </Grid>
-      
-      {/* Charity About */}
-      <Grid item md={9} className="rightContainer">
-        <CharityAbout />
+      <Grid container className="CharityPage">
+
+        {/* Charity Sidebar */}
+        <Grid item md={3} className="sortBarContainer">
+          <CharitySidebar />
+        </Grid>
+        
+        {/* Charity About */}
+        <Grid item md={9} className="rightContainer">
+          <CharityAbout />
+        </Grid>
+        
       </Grid>
       
     </Grid>

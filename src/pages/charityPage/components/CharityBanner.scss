@@ -5,6 +5,33 @@ $darkGrey: #484848;
 $buttonBG: #FF3A3A;
 
 .CharityBanner {
-    padding-top: 20px;
-    background-color: #F4F4F4;
+    height: 220px;
+    padding-top: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: $chipnYellow;
 }
+    .cBanner_LogoCon {
+    }
+        .cBanner_Logo{
+            min-width: 190px;
+            min-height: 190px;
+            max-width: 190px;
+            max-height: 190px;
+            background-color: #FFFFFF;
+        }
+        .cBanner_Logo img {
+            width: 190px;
+            margin-top: 45px;
+            margin-left: 3px;
+        }
+    .cBanner_TitleCon {
+        width: auto;
+        height: 100px;
+        padding: 0px;
+    }
+        .cBanner_TitleCon h1 {
+            margin: 0px;
+            margin-top: 10px;
+            background-color: #fff;
+        }
