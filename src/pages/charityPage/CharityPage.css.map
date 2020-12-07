@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAMA,AAAA,YAAY,CAAC;EACT,WAAW,EAAE,IAAI;EACjB,YAAY,EAAE,IAAI;EAClB,aAAa,EAAE,IAAI;EACnB,gBAAgB,EAAE,OAAO;CAC5B",
+    "sources": [
+        "CharityPage.scss"
+    ],
+    "names": [],
+    "file": "CharityPage.css"
+}

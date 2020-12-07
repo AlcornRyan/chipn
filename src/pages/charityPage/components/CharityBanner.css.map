@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAMA,AAAA,cAAc,CAAC;EACX,WAAW,EAAE,IAAI;EACjB,gBAAgB,EAAE,OAAO;CAC5B",
+    "sources": [
+        "CharityBanner.scss"
+    ],
+    "names": [],
+    "file": "CharityBanner.css"
+}
