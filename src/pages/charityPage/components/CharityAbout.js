@@ -5,7 +5,7 @@ export default function printCharityAbout() {
   return (
     <Grid container className="CharityAbout">
       <Grid item md={12} className="">
-        
+        About
       </Grid>
     </Grid>
   );
