@@ -13,7 +13,7 @@ export default function printCharityBanner() {
             {/* Charity Logo */}
             <Grid item md={12} className="cBanner_LogoCon">
               <Grid className="cBanner_Logo">
-                <img src="/public/images/charity/unicef_logo.png" />
+                <img src="/images/unicef_logo.png" alt="" />
               </Grid>
             </Grid>
 

@@ -14,9 +14,16 @@ $buttonBG: #FF3A3A;
     .cBanner_LogoCon {
     }
         .cBanner_Logo{
-            width: 190px;
-            height: 190px;
+            min-width: 190px;
+            min-height: 190px;
+            max-width: 190px;
+            max-height: 190px;
             background-color: #FFFFFF;
+        }
+        .cBanner_Logo img {
+            width: 190px;
+            margin-top: 45px;
+            margin-left: 3px;
         }
     .cBanner_TitleCon {
         width: auto;
