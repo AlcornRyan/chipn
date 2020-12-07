@@ -19,10 +19,17 @@ $buttonBG: #FF3A3A;
     }
         .cTitle {
             float: left;
+            margin: 0px;
+            margin-top: 35px;
         }
         .cBusinessNumber {
             float: right;
-            margin-top: 35px;
+            margin: 0px;
+            margin-top: 54px;
+        }
+        .cBusinessNumberSmall {
+            font-size: 14px;
+            font-weight: 400;
         }
     .c_ContentCon {
         padding-left: 10px;
@@ -34,7 +41,7 @@ $buttonBG: #FF3A3A;
     }
         .c_threeBoxCon {
             text-align: center;
-        } 
+        }
             .c_threeBoxCon h4 {
                 margin: 0px;
                 margin-top: 7px;

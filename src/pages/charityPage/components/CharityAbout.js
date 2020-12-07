@@ -1,5 +1,6 @@
 import './CharityAbout.css';
 import Grid from '@material-ui/core/Grid';
+import CharityThreeBox from './CharityThreeBox';
 
 export default function printCharityAbout() {
   return (
@@ -8,7 +9,7 @@ export default function printCharityAbout() {
         
         <Grid item md={12} className="c_TitleCon">
           <h1 className="cTitle">Unicef Canada</h1>
-          <h4 className="cBusinessNumber">Unicef Canada</h4>
+          <h4 className="cBusinessNumber"><span className="cBusinessNumberSmall">Business No: </span>122680572RR0001</h4>
         </Grid>
         
         <Grid item md={12} className="c_ContentCon">
@@ -30,44 +31,7 @@ export default function printCharityAbout() {
         </Grid>
         
         {/* Our Results */}
-        <Grid container justify="center" className="c_resultsCon">
-          
-          {/*  */}
-          <Grid item md={12}>
-            <h3>Mission</h3>
-          </Grid>
-          
-          {/*  */}
-          <Grid item md={11}>
-            <Grid container justify="start" spacing={2} className="c_threeBoxCon">
-
-              {/*  */}
-              <Grid item md={4} className="c_threeBoxCon">
-                <Grid item md={12} className="c_threeBox">
-                  <h3>$216</h3>
-                </Grid>
-                <h4>to access education</h4>
-              </Grid>
-
-              {/*  */}
-              <Grid item md={4} className="c_threeBoxCon">
-                <Grid item md={12} className="c_threeBox">
-                  <h3>29.9</h3>
-                </Grid>
-                <h4>million people</h4>
-              </Grid>
-
-              {/*  */}
-              <Grid item md={4} className="c_threeBoxCon">
-                <Grid item md={12} className="c_threeBox">
-                  <h3>2.8</h3>
-                </Grid>
-                <h4>million children</h4>
-              </Grid>
-
-            </Grid>
-          </Grid>
-        </Grid>
+        <CharityThreeBox />
       
     </Grid>
   );
