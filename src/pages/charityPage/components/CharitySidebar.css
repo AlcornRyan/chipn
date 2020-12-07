@@ -1,12 +1,12 @@
 .CharitySidebar {
   height: auto;
   padding-top: 20px;
-  padding-bottom: 30px;
   margin-top: 20px;
   background-color: #FFFFFF;
 }
 
 .cSB_NavigationCon {
+  height: 40px;
   text-align: center;
   padding-bottom: 20px;
 }

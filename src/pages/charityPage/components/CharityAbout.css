@@ -8,9 +8,10 @@
 }
 
 .c_TitleCon {
+  min-height: 62px;
+  max-height: 62px;
   padding-left: 10px;
   padding-right: 10px;
-  padding-bottom: 8px;
   border-bottom: 1px solid #CCCCCC;
 }
 
@@ -21,18 +22,10 @@
 }
 
 .c_Location {
-  color: #484848;
-  float: left;
-  margin: 0px;
-  margin-top: 1px;
-  margin-left: 2px;
-  font-weight: 500;
-}
-
-.c_BusinessNumber {
   float: right;
   margin: 0px;
-  margin-top: 50px;
+  margin-top: 25px;
+  font-weight: 500;
 }
 
 .c_BusinessNumberSmall {
