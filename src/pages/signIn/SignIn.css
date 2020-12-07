@@ -20,20 +20,27 @@
   top: calc(50vh - 279px);
   background-color: #FFFFFF;
   border-radius: 15px;
-  border: 1px solid #C5C5C5;
   -webkit-box-shadow: 3px 3px 6px #EEEEEE;
           box-shadow: 3px 3px 6px #EEEEEE;
 }
 
 .si_ImageContainer {
   width: 100%;
-  margin: 0px;
-  padding: 0px;
   min-height: 498px;
-  background-color: #F7F7F7;
-  border-right: 1px solid #EEEEEE;
+  background-color: #ffda40;
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.signin_image {
+  padding: 2em;
+  width: 70% !important;
+  height: 70% !important;
+  -o-object-fit: cover !important;
+     object-fit: cover !important;
 }
 
 .si_Form button {

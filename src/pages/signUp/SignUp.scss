@@ -23,9 +23,17 @@ $buttonBG: #FF3A3A;
     top: calc(50vh - 329px);
     background-color: #FFFFFF;
     border-radius: 15px;
-    border: 1px solid #C5C5C5;
+    border: 0.5x solid #C5C5C5;
     box-shadow: 3px 3px 6px #EEEEEE;
 }
+
+.signup_image{
+    padding: 4em;
+    width: 70% !important;
+    height: 70% !important;
+    object-fit: cover !important;
+}
+
 .su_InnerContainer {
     width: 100%;
     height: 100%;
@@ -36,7 +44,7 @@ $buttonBG: #FF3A3A;
         border-top-left-radius: 15px;
         border-bottom-left-radius: 15px;
         background-color: #F7F7F7;
-        border-right: 1px solid #EEEEEE;
+        justify-content: center;
     }
     .su_RightCon p {
         margin-bottom: 18px;
@@ -48,16 +56,16 @@ $buttonBG: #FF3A3A;
         .su_Facebook {
             color: #FFFFFF !important;
             background-color: #4267B2 !important;
-            border: 1px solid #CCCCCC;
+
         }
         .su_Google {
             color: #000000 !important;
             background-color: #FFFFFF !important;
-            border: 1px solid #CCCCCC;
+      
         }
         .su_LinkedIn {
             color: #000000 !important;
             background-color: #F6F6F6 !important;
-            border: 1px solid #000000;
+       
         }
     

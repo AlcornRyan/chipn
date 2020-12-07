@@ -14,7 +14,7 @@ export default function SignInPage() {
           {/* Image Container */}
           <Hidden smDown>
             <Grid item md={6} className="si_ImageContainer">
-              
+            <img src="/images/login.svg" alt="Login" className="signin_image" />
             </Grid>
           </Hidden>
 

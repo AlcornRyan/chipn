@@ -7,10 +7,6 @@ import CardActionArea from '@material-ui/core/CardActionArea';
 import CardContent from '@material-ui/core/CardContent';
 import { Box } from '@material-ui/core';
 import Typography from '@material-ui/core/Typography';
-import Button from '@material-ui/core/Button';
-import LocationCity from '@material-ui/icons/LocationOnOutlined';
-import View from '@material-ui/icons/VisibilityOutlined';
-import IconButton from '@material-ui/core/IconButton';
 
 const howItWorksStyle = makeStyles((theme) => ({
 

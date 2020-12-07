@@ -33,7 +33,7 @@ export default function SignUpPage() {
               {/* Left side */}
               <Hidden smDown>
                 <Grid item md={6} className="su_LeftCon">
-                  
+                <img src="/images/signup.svg" alt="Login" className="signup_image" />
                 </Grid>
               </Hidden>
 
