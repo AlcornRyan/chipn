@@ -1,5 +1,14 @@
 .CharityBanner {
+  height: 220px;
   padding-top: 20px;
-  background-color: #F4F4F4;
+  padding-left: 40px;
+  background-color: #FFCD00;
+}
+
+.cBanner_Logo {
+  width: 180px;
+  height: 180px;
+  border-radius: 100px;
+  background-color: #FFFFFF;
 }
 /*# sourceMappingURL=CharityBanner.css.map */

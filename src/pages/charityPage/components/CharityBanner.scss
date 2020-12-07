@@ -5,6 +5,14 @@ $darkGrey: #484848;
 $buttonBG: #FF3A3A;
 
 .CharityBanner {
+    height: 220px;
     padding-top: 20px;
-    background-color: #F4F4F4;
+    padding-left: 40px;
+    background-color: $chipnYellow;
 }
+    .cBanner_Logo {
+        width: 180px;
+        height: 180px;
+        border-radius: 100px;
+        background-color: #FFFFFF;
+    }

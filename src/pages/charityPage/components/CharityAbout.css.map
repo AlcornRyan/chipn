@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "AAMA,AAAA,aAAa,CAAC;EACV,WAAW,EAAE,IAAI;EACjB,gBAAgB,EAAE,OAAO;CAC5B",
+    "mappings": "AAMA,AAAA,aAAa,CAAC;EACV,UAAU,EAAE,IAAI;EAChB,YAAY,EAAE,IAAI;EAClB,aAAa,EAAE,IAAI;EACnB,gBAAgB,EAAE,OAAO;CAC5B",
     "sources": [
         "CharityAbout.scss"
     ],
