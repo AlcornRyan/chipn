@@ -11,7 +11,13 @@ $buttonBG: #FF3A3A;
 .dis_CharityCardContainer {
     
 }
-
+.dis_Link {
+    width: auto;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+}
 .dis_CharityCard {
     height: auto;
     min-height: 400px;
