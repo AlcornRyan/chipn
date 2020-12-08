@@ -2,16 +2,6 @@
   padding-bottom: 25px;
 }
 
-.dis_Link {
-  width: auto;
-  height: auto;
-  margin: 0px;
-  padding: 0px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
 .dis_CharityCard {
   height: auto;
   min-height: 400px;
