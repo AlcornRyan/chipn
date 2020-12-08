@@ -10,10 +10,10 @@ README file:
 - [Description](#description)
 - [Live display](#live-display)
 - [Design justifications](#design-justifications)
-- [Local-development] (#local-development)
+- [Local development](#local-development)
 - [Deployment](#deployment)
-- [Built With] (#built-with)
-- [Sources Used] (#sources-used)
+- [Built With](#built-with)
+- [Sources Used](#sources-used)
 
 ## Description
 
@@ -28,7 +28,7 @@ Chipn is a mobile and desktop web-app that aims to streamline the creation and m
 In the development of Chipn, tools such as ReactJS, React-Router, Redux, NodeJS, ExpressJS, Material UI, Heroku and Google Cloud SQL were used to provide a fully functional website. The website was designed using our high-fidelity prototype created in Adobe XD.
 
 
-## Local-development
+## Local development
 
 How to run Chipn on your local computer:
 * Clone the repository from Git Hub to your computer: git clone https://github.com/AlcornRyan/chipn.git
