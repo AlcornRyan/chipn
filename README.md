@@ -8,8 +8,9 @@ README file:
 
 ## Table of Contents
 - [Description](#description)
-- [Live display] (#live-display)
-- [Local development] (#local-development)
+- [Live display](#live-display)
+- [Design justifications](#design-justifications)
+- [Local-development] (#local-development)
 - [Deployment](#deployment)
 - [Built With] (#built-with)
 - [Sources Used] (#sources-used)
@@ -27,7 +28,7 @@ Chipn is a mobile and desktop web-app that aims to streamline the creation and m
 In the development of Chipn, tools such as ReactJS, React-Router, Redux, NodeJS, ExpressJS, Material UI, Heroku and Google Cloud SQL were used to provide a fully functional website. The website was designed using our high-fidelity prototype created in Adobe XD.
 
 
-### local-development
+## Local-development
 
 How to run Chipn on your local computer:
 * Clone the repository from Git Hub to your computer: git clone https://github.com/AlcornRyan/chipn.git
@@ -47,14 +48,14 @@ This project is available on GitHub and Heroku:
 ## Built With
 
 * [React](https://reactjs.org/docs/getting-started.html) - A JavaScript library for building user interfaces
-* [Material UI] ( https://material-ui.com/) – Material UI Library for UI components
+* [Material UI]( https://material-ui.com/) – Material UI Library for UI components
 * [Heroku]( https://www.heroku.com/) – A cloud platform used for hosting websites
 * [Node]( https://nodejs.org/en/) – An environment used to run JavaScript codes in the server-side.
 * [Express]( https://expressjs.com/) – A back-end framework used for building web applications and APIs.
 * [Google Cloud SQL - MYSQL database]( https://cloud.google.com/sql/) – A cloud database platform 
 
-## Description
+## Sources Used
 
 The components used in the website application were from [Material UI] (https://material-ui.com/)
-*Layout - grid
-*Inputs - buttons 
+* Layout - grid
+* Inputs - buttons 
