@@ -1,0 +1,104 @@
+.discoverSort {
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: #484848;
+  background-color: #FFFFFF;
+}
+
+.dis_SortTitle {
+  font-size: 22px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #cccccc;
+}
+
+.dis_SortTitle h3 {
+  margin: 0px;
+}
+
+.dis_SortCategory {
+  padding-bottom: 15px;
+  padding-left: 2px;
+  border-bottom: 1px solid #cccccc;
+}
+
+.dis_SortCategoryHeader {
+  width: 100%;
+  padding-top: 5px;
+  padding-bottom: 3px;
+}
+
+.dis_SortCategoryBody {
+  width: 100%;
+}
+
+.dis_SortCategoryBody input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  float: left;
+  margin-top: 8px;
+}
+
+.dis_SortCategoryBody p {
+  font-size: 14px;
+  float: left;
+  margin: 0px;
+  margin-top: 8px;
+  margin-left: 10px;
+}
+
+.dis_SortLocatedIn {
+  padding-bottom: 15px;
+  padding-left: 2px;
+  border-bottom: 1px solid #cccccc;
+}
+
+.dis_SortMissionScope {
+  padding-bottom: 15px;
+  padding-left: 2px;
+  border-bottom: 1px solid #cccccc;
+}
+
+.dis_SortHelpingIn {
+  padding-bottom: 15px;
+  padding-left: 2px;
+  border-bottom: 1px solid #cccccc;
+}
+
+.dis_SortTags {
+  padding-bottom: 15px;
+  padding-left: 2px;
+  border-bottom: 1px solid #cccccc;
+}
+
+.sortSelectStyling {
+  width: 100%;
+  height: 30px;
+  color: #484848;
+  border-radius: 5px;
+  border: 1px solid #CCCCCC;
+  margin-top: 10px;
+  margin-bottom: 3px;
+  padding-left: 5px;
+}
+
+.sortTextInputStyling {
+  width: calc(100% - 15px);
+  height: 27px;
+  color: #484848;
+  border-radius: 5px;
+  border: 1px solid #CCCCCC;
+  margin-top: 10px;
+  margin-bottom: 3px;
+  padding-left: 10px;
+}
+
+.dis_DisplayingResults {
+  height: 50px;
+  font-size: 12px;
+  line-height: 52px;
+  text-align: center;
+  padding-bottom: 15px;
+}
+/*# sourceMappingURL=DiscoverSort.css.map */

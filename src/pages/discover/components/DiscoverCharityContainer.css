@@ -1,0 +1,63 @@
+.DiscoverCharityContainer {
+  padding-bottom: 25px;
+}
+
+.dis_CharityCard {
+  height: auto;
+  min-height: 400px;
+  background-color: #FFFFFF;
+  border: 1px solid #CCCCCC;
+  border-radius: 9px;
+  padding-top: 6px;
+  padding-left: 7px;
+  padding-right: 7px;
+  padding-bottom: 6px;
+}
+
+.dis_CharityCard img {
+  width: 100%;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.dis_CharityCard h3 {
+  margin: 0px;
+  margin-top: 2px;
+}
+
+.dis_CharityCard p {
+  margin: 0px;
+  font-size: 14px;
+  color: #ababab;
+}
+
+.dis_CharityCardDescription p {
+  margin: 0px;
+  margin-top: 15px;
+  margin-bottom: 22px;
+  font-size: 14px;
+  color: #484848;
+}
+
+.dis_CharityCardCategoryContainer {
+  min-height: 50px;
+}
+
+.dis_CharityCardCategoryIcon {
+  width: 20px;
+  height: 20px;
+  float: left;
+  margin-right: 10px;
+  border-radius: 15px;
+  border: 2px solid #03A9F4;
+}
+
+.dis_CharityCardFooter {
+  width: 100%;
+  height: 34px;
+  font-size: 14px;
+  line-height: 34px;
+  padding-left: 2px;
+  border-top: 1px solid #CCCCCC;
+}
+/*# sourceMappingURL=DiscoverCharityContainer.css.map */

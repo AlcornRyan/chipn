@@ -1,0 +1,24 @@
+// SASS variables
+$chipnYellow: #FFCD00;
+$chipnGrey: #f2f2f2;
+$linkHover: #03A9F4;
+$darkGrey: #484848;
+$headerBackground: #ffffff;
+$buttonBG: #FF3A3A;
+$chipnYellowWhite: #fff3bf;
+$chipnYellowLight: #ffda40;
+$chipnYellowLightest:#fff6d1;
+
+.howItWorksContainer {
+    width: 100%;
+    min-height: 600px;
+    height:auto;
+    background-color: #FFFFFF;
+    background-image: linear-gradient(75deg, $chipnYellow 40%, white 40%) ;
+    align-items: center;
+    align-content: center;
+}
+
+.howitworks{
+    height:580px !important;
+}

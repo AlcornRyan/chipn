@@ -1,0 +1,29 @@
+// SASS variables
+$chipnYellow: #FFCD00;
+$linkHover: #03A9F4;
+$darkGrey: #484848;
+$buttonBG: #FF3A3A;
+
+.c_resultsCon {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+    .c_threeBoxCon {
+        text-align: center;
+    }
+        .c_threeBoxCon h4 {
+            margin: 0px;
+            margin-top: 7px;
+            font-weight: 500;
+        }
+        .c_threeBox {
+            text-align: center;
+            border: 1px solid #CCCCCC;
+        }
+        .c_threeBox h3 {
+            font-size: 24px;
+            margin: 0px;
+            padding-top: 32px;
+            padding-bottom: 32px;
+            font-weight: 500;
+        }

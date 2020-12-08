@@ -1,0 +1,23 @@
+// SASS variables
+$chipnYellow: #FFCD00;
+$chipnGrey: #f2f2f2;
+$chipnLightGrey: #f7f7f7;
+$linkHover: #03A9F4;
+$darkGrey: #484848;
+$headerBackground: #ffffff;
+$buttonBG: #FF3A3A;
+$chipnYellowLight: #ffda40;
+$chipnYellowWhite: #ffe680;
+$chipnYellowLightest:#fff6d1;
+
+
+.featuredCharitiesContainer {
+    width: 100%;
+    min-height: 600px;
+    height: auto;
+    background-color: #FFFFFF;
+    background-image: linear-gradient(285deg, $chipnYellowLightest 60%, $chipnYellowLight 60%);
+    align-items: center;
+    align-content: center;
+}
+

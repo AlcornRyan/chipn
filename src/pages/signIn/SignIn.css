@@ -1,0 +1,91 @@
+.SignIn {
+  width: 100%;
+  min-height: calc(100vh - 57px);
+  max-height: calc(100vh - 57px);
+  background-color: #FFFFFF;
+  border-bottom: 1px solid #EEEEEE;
+  color: #484848;
+  -webkit-box-shadow: 0px 1px 5px #EEEEEE;
+          box-shadow: 0px 1px 5px #EEEEEE;
+  position: relative;
+  text-align: center;
+  z-index: 90;
+}
+
+.si_Container {
+  height: 500px;
+  min-height: 500px;
+  max-height: auto;
+  position: relative;
+  top: calc(50vh - 279px);
+  background-color: #FFFFFF;
+  border-radius: 15px;
+  -webkit-box-shadow: 3px 3px 6px #EEEEEE;
+          box-shadow: 3px 3px 6px #EEEEEE;
+}
+
+.si_ImageContainer {
+  width: 100%;
+  min-height: 498px;
+  background-color: #ffda40;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.signin_image {
+  padding: 2em;
+  width: 70% !important;
+  height: 70% !important;
+  -o-object-fit: cover !important;
+     object-fit: cover !important;
+}
+
+.si_Form button {
+  width: 40%;
+  height: 40px;
+  color: #FFFFFF;
+  background-color: #5085EC;
+  border: 1px solid #5085EC;
+  margin-top: 18px;
+  margin-bottom: 12px;
+  border-radius: 14px;
+}
+
+.su_Facebook {
+  color: #FFFFFF !important;
+  background-color: #4267B2 !important;
+  border: 1px solid #CCCCCC;
+}
+
+.su_Google {
+  color: #000000 !important;
+  background-color: #FFFFFF !important;
+  border: 1px solid #CCCCCC;
+}
+
+.su_LinkedIn {
+  color: #000000 !important;
+  background-color: #F6F6F6 !important;
+  border: 1px solid #000000;
+}
+
+label {
+  float: left;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 3px;
+}
+
+.si_Input {
+  min-width: 100%;
+  max-width: 100%;
+  height: 28px;
+  border: 1px solid #CCCCCC;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding-left: 5px;
+}
+/*# sourceMappingURL=SignIn.css.map */
