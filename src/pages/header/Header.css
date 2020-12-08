@@ -65,9 +65,7 @@
 }
 
 #rightSideContainer {
-  width: auto;
-  height: 56px;
-  float: right;
+  font-size: 15px !important;
 }
 
 .rightLinks {
